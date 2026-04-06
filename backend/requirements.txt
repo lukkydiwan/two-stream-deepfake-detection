@@ -1,3 +1,6 @@
 numpy
 tensorflow
 pandas
+visualkeras
+pydot 
+pydotplus
