@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # 1. LOAD THE DATA
 # This assumes your training loop from Day 3 created 'training_logs.csv'
 try:
-    data = pd.read_csv('fine_tuning_logs.csv')
+    data = pd.read_csv('day5_augmented_logs.csv')
     print("Successfully loaded training logs!")
 except FileNotFoundError:
     print("Error: 'training_logs.csv' not found. Please finish training first.")
